@@ -1,0 +1,24 @@
+# Push this project to GitHub
+
+Your repo: https://github.com/MampotjeMabusela/credit-risk-analyzer
+
+Run these commands in order. Use one of:
+  - Git Bash (after installing Git from https://git-scm.com/download/win), or
+  - PowerShell / Terminal after restarting it so "git" is recognized.
+
+1. Go to your project folder:
+   cd "C:\Users\mampo\OneDrive\Documents\credit-risk-analyzer"
+
+2. Initialize and push:
+   git init
+   git add .
+   git status
+   git commit -m "Initial commit: Credit Risk Analyzer"
+   git branch -M main
+   git remote add origin https://github.com/MampotjeMabusela/credit-risk-analyzer.git
+   git push -u origin main
+
+If Git asks for login:
+  - Username: your GitHub username (MampotjeMabusela)
+  - Password: use a Personal Access Token, not your GitHub password.
+    Create one at: GitHub → Settings → Developer settings → Personal access tokens → Generate new token (repo scope).
